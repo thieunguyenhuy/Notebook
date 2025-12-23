@@ -8,7 +8,7 @@ SOURCE_ROOT = r"D:/Code/Notebook"
 DEST_DIR = r"C:/Users/LENOVO/AppData/Roaming/Sublime Text 3/Packages/User"
 
 EXTENSIONS = ('.h', '.hpp', '.cpp')
-TRIGGER_PREFIX = ";"
+TRIGGER_PREFIX = "@"
 
 def create_snippet_xml(content, trigger, relative_path):
     # relative_path giúp hiển thị nguồn gốc file trong menu gợi ý
